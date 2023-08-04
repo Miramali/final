@@ -111,9 +111,9 @@ avatarURL = baseURL + sanitizedAvatar;
 } else {
 // Handle the case where editedData.avatar is not a valid object or undefined
 // You might want to set a default avatar URL or handle this case differently
-avatarURL = {woman};
+avatarURL = {woman};  
 }
-
+//////////////////////////////////////////////////////:
     const handleFileChange2 = (info) => {
       const fileList = [...info.fileList];
       if (fileList.length > 0) {
